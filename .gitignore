@@ -18,5 +18,5 @@ local.properties
 /app/release/output-metadata.json
 /.kotlin
 /sign.properties
-/keystore/woobox.p12
+/keystore/release.p12
 /outputs

@@ -1,12 +1,12 @@
 <div align="center">
    <img width="160" src="./img/ic_launcher.png" alt="logo">
-   <h1>WooBox For RedmagicOS</h1>
+   <h1>FixRedMagicWindow</h1>
    <p>
        <b>English | <a href="../README.md">Simplified Chinese</a></b>
    </p>
-   <a href="https://github.com/u9521/WooBoxForRedmagicOS/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/u9521/WooBoxForRedmagicOS"></a>
-   <a href="https://github.com/u9521/WooBoxForRedmagicOS/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/u9521/WooBoxForRedmagicOS"></a>
-   <a href="../LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/u9521/WooBoxForRedmagicOS"></a>
+   <a href="https://github.com/Gio470/FixRedMagicWindow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Gio470/FixRedMagicWindow"></a>
+   <a href="https://github.com/Gio470/FixRedMagicWindow/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Gio470/FixRedMagicWindow"></a>
+   <a href="../LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Gio470/FixRedMagicWindow"></a>
    <p>An Xposed module for system extension adapted for RedmagicOS 9 (Android 14)</p>
 </div>
 
@@ -30,11 +30,11 @@ Original Developer: [CoolApk@乌堆小透明](http://www.coolapk.com/u/883441)
 
 ### Download Links
 
-Repository Release (currently the only distribution channel): [releases](https://github.com/u9521/WooBoxForRedmagicOS/releases)
+Repository Release (currently the only distribution channel): [releases](https://github.com/Gio470/FixRedMagicWindow/releases)
 
-~~Xposed Repository Download: [Click here for latest release](https://github.com/Xposed-Modules-Repo/wooboxforredmagicos/releases)~~
+~~Xposed Repository Download: [Click here for latest release](https://github.com/Xposed-Modules-Repo/fixredmagicwindow/releases)~~
 
-~~CoolApk Download: [Click here for latest release](https://www.coolapk.com/apk/wooboxforredmagicos)~~
+~~CoolApk Download: [Click here for latest release](https://www.coolapk.com/apk/fixredmagicwindow)~~
 
 ---
 

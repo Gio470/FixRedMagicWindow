@@ -4,7 +4,7 @@ import com.fixredmagicwindow.BuildConfig
 import de.robv.android.xposed.XSharedPreferences
 @Suppress("unused")
 object XSPUtils {
-    private var prefs = XSharedPreferences(BuildConfig.APPLICATION_ID, "WooboxConfig")
+    private var prefs = XSharedPreferences(BuildConfig.APPLICATION_ID, "FixRedMagicWindowConfig")
     fun getprefs(): XSharedPreferences {
         return prefs
     }

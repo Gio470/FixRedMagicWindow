@@ -6,5 +6,5 @@ dependencyResolutionManagement {
         maven("https://api.xposed.info")
     }
 }
-rootProject.name = "WooBoxForRedmagicOS"
+rootProject.name = "FixRedMagicWindow"
 include(":app")

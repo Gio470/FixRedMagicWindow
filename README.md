@@ -1,12 +1,12 @@
 <div align="center">
    <img width="160" src="./doc/img/ic_launcher.png" alt="logo">
-   <h1>WooBox For RedmagicOS</h1>
+   <h1>FixRedMagicWindow</h1>
    <p>
        <b><a href="./doc/README_EN.md">English</a> | 简体中文</b>
    </p>
-   <a href="https://github.com/u9521/WooBoxForRedmagicOS/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/u9521/WooBoxForRedmagicOS"></a>
-   <a href="https://github.com/u9521/WooBoxForRedmagicOS/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/u9521/WooBoxForRedmagicOS"></a>
-   <a href="./LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/u9521/WooBoxForRedmagicOS"></a>
+   <a href="https://github.com/Gio470/FixRedMagicWindow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Gio470/FixRedMagicWindow"></a>
+   <a href="https://github.com/Gio470/FixRedMagicWindow/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Gio470/FixRedMagicWindow"></a>
+   <a href="./LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Gio470/FixRedMagicWindow"></a>
    <p>一个基于 RedmagicOS 9(Android 14)适配的系统拓展Xposed模块</p>
 </div>
 
@@ -30,11 +30,11 @@
 
 ### 下载地址
 
-仓库Release下载(目前唯一发布渠道)：[releases](https://github.com/u9521/WooBoxForRedmagicOS/releases)
+仓库Release下载(目前唯一发布渠道)：[releases](https://github.com/Gio470/FixRedMagicWindow/releases)
 
-~~Xposed仓库下载：[点击此处下载最新发行版](https://github.com/Xposed-Modules-Repo/wooboxforredmagicos/releases)~~
+~~Xposed仓库下载：[点击此处下载最新发行版](https://github.com/Xposed-Modules-Repo/fixredmagicwindow/releases)~~
 
-~~酷安下载：[点击此处下载最新发行版](https://www.coolapk.com/apk/wooboxforredmagicos)~~
+~~酷安下载：[点击此处下载最新发行版](https://www.coolapk.com/apk/fixredmagicwindow)~~
 
 ---
 

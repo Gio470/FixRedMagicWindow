@@ -27,14 +27,14 @@
     public void *(de.robv.android.xposed.IXposedHookZygoteInit$StartupParam);
 }
 
--keep class * extends com.u9521.wooboxforredmagicos.util.xposed.EasyXposedInit
+-keep class * extends com.fixredmagicwindow.util.xposed.EasyXposedInit
 
 -assumenosideeffects class kotlin.jvm.internal.Intrinsics {
     public static void check*(...);
     public static void throw*(...);
 }
 # 保留指定hook包下的所有类不被优化，但允许混淆
--keep,allowobfuscation class com.u9521.wooboxforredmagicos.hook.app.** { *; }
+-keep,allowobfuscation class com.fixredmagicwindow.hook.app.** { *; }
 
 -allowaccessmodification
 -overloadaggressively
