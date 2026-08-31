@@ -3,8 +3,8 @@
 # min_api: 31
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 6b994d7
-# pg_map_hash: SHA-256 6b994d7d6363dfb2eabaf00dd082cc3e922d26f344a3ff4fd7b700bdaeeadbcb
+# pg_map_id: f868fc4
+# pg_map_hash: SHA-256 f868fc4573a123d73bab06f3f68a671887d4b26dc24d93c6009891ac879e0823
 androidx.annotation.Keep -> a.a:
 # {"id":"sourceFile","fileName":"Keep.jvm.kt"}
 com.fixredmagicwindow.hook.XposedEntry -> com.fixredmagicwindow.hook.XposedEntry:
@@ -25,22 +25,44 @@ com.fixredmagicwindow.hook.app.Android -> com.fixredmagicwindow.hook.app.Android
     java.lang.String logTag -> e
     boolean loadDexkit -> f
     7:12:java.util.List kotlin.collections.CollectionsKt__CollectionsJVMKt.listOf(java.lang.Object):22:22 -> <clinit>
-    7:12:void <clinit>():8 -> <clinit>
-    13:14:void <clinit>():8:8 -> <clinit>
-    15:18:void <clinit>():9:9 -> <clinit>
-    19:23:void <clinit>():10:10 -> <clinit>
+    7:12:void <clinit>():9 -> <clinit>
+    13:14:void <clinit>():9:9 -> <clinit>
+    15:18:void <clinit>():10:10 -> <clinit>
+    19:23:void <clinit>():11:11 -> <clinit>
     0:3:void com.fixredmagicwindow.util.xposed.base.AppRegister.<init>():8:8 -> <init>
-    0:3:void <init>():7 -> <init>
-    0:2:boolean getLoadDexkit():11:11 -> b
-    0:2:java.lang.String getLogTag():10:10 -> c
-    0:2:java.util.List getPackageName():8:8 -> d
-    0:2:java.util.List getProcessName():9:9 -> e
-    1:7:void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam):16:16 -> handleLoadPackage
-    8:11:void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam):14:14 -> handleLoadPackage
-com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits -> b.c:
+    0:3:void <init>():8 -> <init>
+    0:2:boolean getLoadDexkit():12:12 -> b
+    0:2:java.lang.String getLogTag():11:11 -> c
+    0:2:java.util.List getPackageName():9:9 -> d
+    0:2:java.util.List getProcessName():10:10 -> e
+    1:12:void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam):18:18 -> handleLoadPackage
+    13:16:void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam):15:15 -> handleLoadPackage
+com.fixredmagicwindow.hook.app.android.DisableWrAutoHang -> b.b:
+# {"id":"sourceFile","fileName":"DisableWrAutoHang.kt"}
+    com.fixredmagicwindow.hook.app.android.DisableWrAutoHang INSTANCE -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/b;"}
+    0:7:void <clinit>():0:0 -> <clinit>
+    0:3:void com.fixredmagicwindow.util.xposed.base.HookRegister.<init>():6:6 -> <init>
+    0:3:void <init>():9 -> <init>
+    0:9:void init():12:12 -> d
+    10:19:void init():13:13 -> d
+    20:29:void init():15:15 -> d
+    30:39:void init():17:17 -> d
+    40:41:void init():27:27 -> d
+    42:43:void init():28:28 -> d
+    44:50:void init():29:29 -> d
+    51:56:void init():21:21 -> d
+    57:61:void init():31:31 -> d
+    62:65:void init():37:37 -> d
+com.fixredmagicwindow.hook.app.android.DisableWrAutoHang$init$blockHooker$1 -> b.a:
+# {"id":"sourceFile","fileName":"DisableWrAutoHang.kt"}
+    0:3:void <init>():31:31 -> <init>
+    0:2:void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam):33:33 -> beforeHookedMethod
+    3:8:void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam):34:34 -> beforeHookedMethod
+com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits -> b.e:
 # {"id":"sourceFile","fileName":"RmWindowReplyLimits.kt"}
     com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits INSTANCE -> d
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/c;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/e;"}
     0:7:void <clinit>():0:0 -> <clinit>
     0:3:void com.fixredmagicwindow.util.xposed.base.HookRegister.<init>():6:6 -> <init>
     0:3:void <init>():8 -> <init>
@@ -52,12 +74,12 @@ com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits -> b.c:
     40:46:void init():25:25 -> d
     47:51:void init():26:26 -> d
     52:55:void init():32:32 -> d
-com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits$init$maxMultiHooker$1 -> b.a:
+com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits$init$maxMultiHooker$1 -> b.c:
 # {"id":"sourceFile","fileName":"RmWindowReplyLimits.kt"}
     0:3:void <init>():26:26 -> <init>
     0:2:void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam):28:28 -> beforeHookedMethod
     3:8:void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam):29:29 -> beforeHookedMethod
-com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits$init$pkgWhiteListHooker$1 -> b.b:
+com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits$init$pkgWhiteListHooker$1 -> b.d:
 # {"id":"sourceFile","fileName":"RmWindowReplyLimits.kt"}
     0:3:void <init>():14:14 -> <init>
     0:2:void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam):16:16 -> beforeHookedMethod

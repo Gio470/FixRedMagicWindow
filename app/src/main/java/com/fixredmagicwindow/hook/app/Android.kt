@@ -1,5 +1,6 @@
 package com.fixredmagicwindow.hook.app
 
+import com.fixredmagicwindow.hook.app.android.DisableWrAutoHang
 import com.fixredmagicwindow.hook.app.android.RmWindowReplyLimits
 import com.fixredmagicwindow.util.xposed.base.AppRegister
 import de.robv.android.xposed.callbacks.XC_LoadPackage
@@ -14,6 +15,7 @@ object Android : AppRegister() {
         autoInitHooks(
             lpparam,
             RmWindowReplyLimits,//解除小窗限制
+            DisableWrAutoHang,//禁止小窗拖动后自动贴边悬挂
         )
     }
 }
