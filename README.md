@@ -1,63 +1,32 @@
 <div align="center">
    <img width="160" src="./doc/img/ic_launcher.png" alt="logo">
    <h1>FixRedMagicWindow</h1>
-   <p>
-       <b><a href="./doc/README_EN.md">English</a> | 简体中文</b>
-   </p>
-   <a href="https://github.com/Gio470/FixRedMagicWindow/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Gio470/FixRedMagicWindow"></a>
-   <a href="https://github.com/Gio470/FixRedMagicWindow/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Gio470/FixRedMagicWindow"></a>
-   <a href="./LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Gio470/FixRedMagicWindow"></a>
-   <p>一个基于 RedmagicOS 9(Android 14)适配的系统拓展Xposed模块</p>
+   <p>An Xposed module that removes the small-window (split-window) app limits on RedMagic OS 9 (Android 14).</p>
 </div>
 
 ---
 
+## Requirements
 
-### 模块说明
+- RedMagic OS 9 (Android 14) — other versions/ROMs are not supported
+- A root/Xposed framework (e.g. LSPosed) to activate the module
 
-仅支持 RedmagicOS 9(Android 14)，其余版本无法使用。
-  
-开发者：[@u9521](https://github.com/u9521)
+## What it does
 
-原开发者：[酷安@乌堆小透明](http://www.coolapk.com/u/883441)
+Patches system-level restrictions so any app can be opened in small/split-window mode, and removes the cap on how many windows can be open at once.
 
----
+## Building
 
-### 模块截图
-![截图](./doc/img/cn.jpg)  
+```bash
+./gradlew assembleRelease
+```
 
----
+By default the release build falls back to a debug test key. To sign with your own key, copy `sign.properties.template` to `sign.properties` and fill in your keystore details.
 
-### 下载地址
+## Downloads
 
-仓库Release下载(唯一发布渠道)：[releases](https://github.com/Gio470/FixRedMagicWindow/releases)
+See the [Releases](https://github.com/Gio470/FixRedMagicWindow/releases) page for prebuilt APKs.
 
----
-
-### 第三方开源引用
-
-##### GNU General Public License v3.0
-[qqlittleice/MiuiHome](https://github.com/qqlittleice/MiuiHome)
-
-[yujincheng08/BiliRoaming](https://github.com/yujincheng08/BiliRoaming)
-
-[Mikanoshi/CustoMIUIzer](https://code.highspec.ru/Mikanoshi/CustoMIUIzer)
-
-[LSPosed/DisableFlagSecure](https://github.com/LSPosed/DisableFlagSecure)
-
-##### GNU General Public License v2.0
-
-~~[LSPosed/CorePatch](https://github.com/LSPosed/CorePatch)~~(不再集成，有需要点击链接下载)
-##### GNU Lesser General Public License v3.0
-
-[LuckyPray/DexKit](https://github.com/LuckyPray/DexKit)
-
-##### GNU Lesser General Public License v2.1
-
-[577fkj/blockmiui](https://github.com/577fkj/blockmiui)  
-
----
-
-### License
+## License
 
 [GNU General Public License v3.0](./LICENSE)
