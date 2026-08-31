@@ -7,7 +7,7 @@
 
 ## Requirements
 
-- RedMagic OS (tested on my Redmagic 10 Pro (NX789J) Android 16
+- RedMagic OS (tested on my Redmagic 10 Pro (NX789J) Android 16)
 - A root/Xposed framework
 
 ## What it does
