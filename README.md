@@ -1,5 +1,4 @@
 <div align="center">
-   <img width="160" src="./doc/img/ic_launcher.png" alt="logo">
    <h1>FixRedMagicWindow</h1>
    <p>An Xposed module that removes the small-window (split-window) app limits on RedMagic OS 9 (Android 14).</p>
 </div>
