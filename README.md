@@ -1,26 +1,18 @@
 <div align="center">
    <h1>FixRedMagicWindow</h1>
-   <p>An Xposed module that removes the small-window (split-window) app limits on RedMagic OS 9 (Android 14).</p>
+   <p>An Xposed module that removes the split-window (floating-window) app limits on RedMagicOS.</p>
 </div>
 
 ---
 
 ## Requirements
 
-- RedMagic OS 9 (Android 14) — other versions/ROMs are not supported
-- A root/Xposed framework (e.g. LSPosed) to activate the module
+- RedMagic OS (tested on my Redmagic 10 Pro (NX789J) Android 16
+- A root/Xposed framework
 
 ## What it does
 
-Patches system-level restrictions so any app can be opened in small/split-window mode, and removes the cap on how many windows can be open at once.
-
-## Building
-
-```bash
-./gradlew assembleRelease
-```
-
-By default the release build falls back to a debug test key. To sign with your own key, copy `sign.properties.template` to `sign.properties` and fill in your keystore details.
+Patches system-level restrictions so any app can be opened in floating/split-window mode, and removes the cap on how many windows can be open at once.
 
 ## Downloads
 
@@ -29,3 +21,11 @@ See the [Releases](https://github.com/Gio470/FixRedMagicWindow/releases) page fo
 ## License
 
 [GNU General Public License v3.0](./LICENSE)
+
+## Credits
+
+https://github.com/u9521/WooBoxForRedmagicOS
+
+## Note
+
+I made this app for my personal use with the help of AI (I don't know how to code), I am not responsible if you bootloop, brick, etc your device
