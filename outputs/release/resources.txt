@@ -1,9 +1,0 @@
-@com.fixredmagicwindow:array/xposed_scope : reachable=true
-@com.fixredmagicwindow:string/app_name : reachable=true
-@com.fixredmagicwindow:string/xposeddescription : reachable=true
-
-The root reachable resources are:
- array:xposed_scope:2130771968
- string:app_name:2130837504
- string:xposeddescription:2130837505
-Unused resources are: 
