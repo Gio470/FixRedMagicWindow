@@ -28,4 +28,4 @@ https://github.com/u9521/WooBoxForRedmagicOS
 
 ## Note
 
-I made this app for my personal use with the help of AI (I don't know how to code), I am not responsible if you bootloop, brick, etc your device
+I made this app for my personal use with the help of AI (I don't know how to code), I am not responsible if you bootloop or brick your device
