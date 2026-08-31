@@ -30,6 +30,8 @@ See the [Releases](https://github.com/Gio470/FixRedMagicWindow/releases) page fo
 
 https://github.com/u9521/WooBoxForRedmagicOS
 
+https://claude.ai
+
 ## Note
 
 I made this app for my personal use with the help of AI (I don't know how to code), I am not responsible if you bootloop or brick your device
