@@ -23,18 +23,14 @@
 
 ---
 
-### 模块截图 ~~（传家宝截图，以后再更新）~~
+### 模块截图
 ![截图](./doc/img/cn.jpg)  
 
 ---
 
 ### 下载地址
 
-仓库Release下载(目前唯一发布渠道)：[releases](https://github.com/Gio470/FixRedMagicWindow/releases)
-
-~~Xposed仓库下载：[点击此处下载最新发行版](https://github.com/Xposed-Modules-Repo/fixredmagicwindow/releases)~~
-
-~~酷安下载：[点击此处下载最新发行版](https://www.coolapk.com/apk/fixredmagicwindow)~~
+仓库Release下载(唯一发布渠道)：[releases](https://github.com/Gio470/FixRedMagicWindow/releases)
 
 ---
 

@@ -22,7 +22,7 @@ Original Developer: [CoolApk@乌堆小透明](http://www.coolapk.com/u/883441)
 
 ---
 
-### Screenshots ~~(Legacy screenshots, to be updated later)~~
+### Screenshots
 
 ![Screenshots](./img/en.jpg)
 
@@ -30,11 +30,7 @@ Original Developer: [CoolApk@乌堆小透明](http://www.coolapk.com/u/883441)
 
 ### Download Links
 
-Repository Release (currently the only distribution channel): [releases](https://github.com/Gio470/FixRedMagicWindow/releases)
-
-~~Xposed Repository Download: [Click here for latest release](https://github.com/Xposed-Modules-Repo/fixredmagicwindow/releases)~~
-
-~~CoolApk Download: [Click here for latest release](https://www.coolapk.com/apk/fixredmagicwindow)~~
+Repository Release (the only distribution channel): [releases](https://github.com/Gio470/FixRedMagicWindow/releases)
 
 ---
 
