@@ -9,6 +9,8 @@
 
 ![Preview](./Screenrecorder-20260831-085511-ezgif.com-video-to-gif-converter.gif)
 
+![Preview](./Screenshot_20260923_083840.jpg)
+
 ## Requirements
 
 - RedMagic OS (tested on my Redmagic 10 Pro (NX789J) Android 16)
