@@ -32,6 +32,8 @@ https://github.com/u9521/WooBoxForRedmagicOS
 
 https://claude.ai
 
+Icons from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 ## Note
 
 I made this app for my personal use with the help of AI (I don't know how to code), I am not responsible if you bootloop or brick your device

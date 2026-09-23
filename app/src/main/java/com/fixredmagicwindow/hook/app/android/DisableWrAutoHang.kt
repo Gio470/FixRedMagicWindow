@@ -2,6 +2,8 @@ package com.fixredmagicwindow.hook.app.android
 
 import android.annotation.SuppressLint
 import android.graphics.Rect
+import com.fixredmagicwindow.util.PatchKeys
+import com.fixredmagicwindow.util.XSPUtils
 import com.fixredmagicwindow.util.xposed.base.HookRegister
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedBridge
@@ -31,7 +33,9 @@ object DisableWrAutoHang : HookRegister() {
         val blockHooker = object : XC_MethodHook() {
             override fun beforeHookedMethod(param: MethodHookParam?) {
                 super.beforeHookedMethod(param)
-                param!!.result = false
+                if (XSPUtils.getBoolean(PatchKeys.DISABLE_WR_AUTO_HANG, PatchKeys.defaultFor(PatchKeys.DISABLE_WR_AUTO_HANG))) {
+                    param!!.result = false
+                }
             }
         }
         XposedBridge.hookMethod(performHangForWr, blockHooker)

@@ -1,6 +1,8 @@
 package com.fixredmagicwindow.hook.app.android
 
 import android.annotation.SuppressLint
+import com.fixredmagicwindow.util.PatchKeys
+import com.fixredmagicwindow.util.XSPUtils
 import com.fixredmagicwindow.util.xposed.base.HookRegister
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XposedBridge
@@ -14,7 +16,9 @@ object RmWindowReplyLimits : HookRegister() {
         val pkgWhiteListHooker = object : XC_MethodHook() {
             override fun beforeHookedMethod(param: MethodHookParam?) {
                 super.beforeHookedMethod(param)
-                param!!.result = true
+                if (XSPUtils.getBoolean(PatchKeys.RM_WINDOW_REPLY_LIMITS, PatchKeys.defaultFor(PatchKeys.RM_WINDOW_REPLY_LIMITS))) {
+                    param!!.result = true
+                }
             }
         }
         XposedBridge.hookMethod(pkgInWhiteList, pkgWhiteListHooker)
@@ -26,7 +30,9 @@ object RmWindowReplyLimits : HookRegister() {
         val maxMultiHooker = object : XC_MethodHook() {
             override fun beforeHookedMethod(param: MethodHookParam?) {
                 super.beforeHookedMethod(param)
-                param!!.result = false
+                if (XSPUtils.getBoolean(PatchKeys.RM_WINDOW_REPLY_LIMITS, PatchKeys.defaultFor(PatchKeys.RM_WINDOW_REPLY_LIMITS))) {
+                    param!!.result = false
+                }
             }
         }
         XposedBridge.hookMethod(isMaxForMulti, maxMultiHooker)

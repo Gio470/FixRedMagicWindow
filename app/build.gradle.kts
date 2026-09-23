@@ -6,6 +6,7 @@ import java.util.Properties
 plugins {
     id("com.android.application")
     id("kotlin-android")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 fun getSigningProperties(): Properties {
@@ -52,13 +53,14 @@ android {
 //    buildToolsVersion = "32.0.0"
     buildFeatures {
         buildConfig = true
+        compose = true
     }
     defaultConfig {
         applicationId = "com.fixredmagicwindow"
         minSdk = 31
         targetSdk = 34
-        versionCode = 3
-        versionName = "1.2.0"
+        versionCode = 4
+        versionName = "1.3.0"
     }
 
     buildTypes {
@@ -155,4 +157,13 @@ dependencies {
     //API
     compileOnly("de.robv.android.xposed:api:82")
     implementation("org.luckypray:dexkit:2.0.3")
+    //UI
+    implementation("androidx.core:core-ktx:1.15.0")
+    implementation("androidx.activity:activity-compose:1.10.1")
+    implementation(platform("androidx.compose:compose-bom:2024.12.01"))
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.material3:material3")
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    implementation("androidx.compose.ui:ui-tooling-preview")
 }
